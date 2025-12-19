@@ -1,0 +1,52 @@
+{
+    "name": "music-maker",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.0",
+        "arcade-extension-utils": "github:riknoll/arcade-extension-utils#v0.0.1",
+        "browser-events": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "buttonEvent.ts",
+        "component.ts",
+        "state.ts",
+        "parameter.ts",
+        "label.ts",
+        "numberParamComponent.ts",
+        "sliderComponent.ts",
+        "adsr.ts",
+        "icons.ts",
+        "buttonComponent.ts",
+        "iconSelectorComponent.ts",
+        "lfoGraphComponent.ts",
+        "scrollbarComponent.ts",
+        "piano/settings.ts",
+        "piano/draw.ts",
+        "piano/instrumentEditor.ts",
+        "piano/instrument.ts",
+        "piano/pianoComponent.ts",
+        "piano/measureGridComponent.ts",
+        "piano/song.ts",
+        "piano/theme.ts",
+        "piano/util.ts",
+        "piano/dimensions.ts",
+        "piano/patternEditor.ts",
+        "piano/builtinInstruments.ts",
+        "piano/player.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.63",
+        "tag": "v2.0.63",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/5f6dbe1863a184bb2cde85fd93133e94e9719e03",
+        "target": "2.0.63",
+        "pxt": "11.3.68"
+    },
+    "preferredEditor": "tsprj"
+}
