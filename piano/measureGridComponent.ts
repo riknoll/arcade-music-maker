@@ -117,7 +117,7 @@ namespace piano {
         draw(left: number, top: number) {
             let x = left;
 
-            for (let measure = 0; measure < this.displayPattern.measures; measure++) {
+            for (let measure = 0; measure < this.song.measuresPerPattern; measure++) {
                 if (x + this.metrics.measureWidth < left) {
                     x += this.metrics.measureWidth;
                     continue;
